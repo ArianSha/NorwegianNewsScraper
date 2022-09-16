@@ -5,7 +5,7 @@ import {E24Scraper} from "./e24/E24Scraper"
 import {VgScraper} from "./vg/VgScraper"
 import {TV2Scraper} from "./tv2/TV2Scraper"
 import {NRKScraper} from "./nrk/NRKScraper"
-import {updateFirestore} from "../UpdateFirestore"
+import {updateFirestore} from "./UpdateFirestore"
 
 
 exports.scrape = functions
